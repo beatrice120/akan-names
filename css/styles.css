@@ -1,0 +1,61 @@
+body {
+   background-color: gray;
+}
+.p {
+    color:white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:20px;
+    line-height: 1.1;
+    
+    float:left;
+}
+.col-md-8{
+    color: white;
+}
+h1 {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 90px;
+    text-align:center;
+    color: blue;
+
+}
+h2{
+    color: white;
+}
+.ttt {
+    color:white;
+    font-family: 'EB Garamond', serif;
+    font-size:1.8em;
+}
+.ggg {
+    color:aqua;
+    font-family: 'EB Garamond', serif;
+    font-size:1.8em;
+} 
+
+label {
+    font-size:1.5em;
+    color:aqua;
+}
+footer {
+    color:white;
+    font-size:1em;
+}
+form {
+    width:60%;
+    /*border:2px solid white;*/
+    text-align:center;
+}
+a {
+    color:white;
+}
+.btn btn-outline-info btn-lg {
+    color:white;
+}
+#output {
+    font-size:1.8em;
+    border:2px solid white;
+    text-shadow: 2px 2px 4px #000000;
+}
+
