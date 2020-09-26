@@ -5,11 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Akan Names</title>
+    <title>Akan Naming</title>
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/styles.css">
-    <link href="https://fonts.googleapis.com/css?family=EB+Garamond&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Righteous&display=swap" rel="stylesheet">
+   
 
 </head>
 
@@ -70,7 +69,7 @@ based predominantly on gold mining and trading of farm products.
                    
                     <label>Enter your firstname</label>
 
-                    <input type="text" class="form-control" id="name" placeholder="ex: betty" required>
+                    <input type="text" class="form-control" id="name" placeholder="ex: betty" required max="300" >
 
                     
 
@@ -88,19 +87,20 @@ based predominantly on gold mining and trading of farm products.
 
                     <input type="number" class="form-control" id="year" placeholder="ex:2003" required
                         min="1879" max="2020" >
-                </div>
+                
                 
                     <label>Choose your Gender</label><br><br>
                     <input type="radio" name="gender" id="female" value="F" checked> Female
                     <input type="radio" name="gender" id="male" value="M"> Male
-               
+                </div>
             </div>
             <br><br>
-            <a onclick="send()" class="btn btn-outline-info btn-lg">Submit</a>
+            <a onclick="send()" class="btn btn-primary">SEND</a>
             
-            <button type="reset" class="btn btn-outline-info btn-lg">Reset</button>
+            
+            <button type="clear" class="btn btn-primary">CLEAR</button>
 
-            <br><br> <p id="output"> </p>
+            <br><br> <p id="return">  </p>
             
         </form> </center>
         <br><br>

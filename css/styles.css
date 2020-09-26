@@ -38,7 +38,7 @@ label {
 }
 
 form {
-    width:40%;
+    width:30%;
     background-color: black;
   
     text-align:center;
@@ -76,3 +76,6 @@ input[type=text] {
     border: 2px solid blue;
     border-radius: 4px;
   }
+ 
+      
+  
