@@ -5,12 +5,14 @@ body {
     color:white;
     font-family: 'Courier New', Courier, monospace;
     font-size:20px;
-    line-height: 1.1;
+    
     
     float:left;
 }
 .col-md-8{
     color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:20px;
 }
 h1 {
     font-style: italic;
@@ -23,14 +25,14 @@ h1 {
 h2{
     color: white;
 }
-.ttt {
+.we {
     color:white;
-    font-family: 'EB Garamond', serif;
-    font-size:1.8em;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:30px;
 }
 .ggg {
     color:aqua;
-    font-family: 'EB Garamond', serif;
+    font-family: 'Courier New', Courier, monospace;
     font-size:1.8em;
 } 
 
@@ -59,3 +61,7 @@ a {
     text-shadow: 2px 2px 4px #000000;
 }
 
+.card-footer{
+ color: #000000;
+ background-color: white;
+}

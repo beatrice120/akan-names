@@ -1,5 +1,5 @@
 
-var submission = function() {
+/*var submission = function() {
   var daysOfTheWeek = [
     "Sunday",
     "Monday",
@@ -8,7 +8,7 @@ var submission = function() {
     "Thursday",
     "Friday",
     "Saturday"
-  ];
+  ]; */
   var maleNames = [
     "Kwasi",
     "Kwadwo",
@@ -27,6 +27,7 @@ var submission = function() {
     "Afua",
     "Ama"
   ];
+  /*
   var month = parseInt(document.getElementById("month").value);
   var year = parseInt(document.getElementById("year").value);
   var day = parseInt(document.getElementById("day").value);
@@ -40,7 +41,7 @@ var submission = function() {
   if (month =="" && year =="" && day =="" && name=="") {
     alert("Please Enter you credentials");
     return false;
-  }
+  } */
 
 //   if (month == null || month== "", day == null || day == "", year== null || year == "", name == null || name == "") {
 //     alert("Please Fill All Required Field");
