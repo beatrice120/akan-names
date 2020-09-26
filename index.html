@@ -63,35 +63,47 @@ based predominantly on gold mining and trading of farm products.
             IF YOU NEED TO KNOW YOUR AKAN NAME PLEASE FILL ALL THIS FORM!!!<br> <center><img src="images/k.png" width="100" height="100"></center>
             
             </p>
-
-        <form>
+<br><br>
+       <center> <form class="form">
             <div>
                 <div>
-                        <p id="output"></p>
-                    <label>Enter Your first Name.</label>
-                    <input type="text" class="form-control" id="name" placeholder="Enter" required>
-                    <label>Year</label>
-                    <input type="number" class="form-control" id="year" placeholder="Enter the year." required
-                        min="1980" max="2019" >
-                    <label>Month</label>
-                    <input type="number" class="form-control" id="month" placeholder="Enter the month" required min="1"
+                   
+                    <label>Enter your firstname</label>
+
+                    <input type="text" class="form-control" id="name" placeholder="ex: betty" required>
+
+                    
+
+                    <label>Enter your Month</label>
+
+                    <input type="number" class="form-control" id="month" placeholder="ex:09" required min="1"
                         max="12">
 
-                    <label>Day</label>
-                    <input type="number" class="form-control" id="day" placeholder="Enter the day" required min="1"
+                    <label>Enter your Day</label>
+
+                    <input type="number" class="form-control" id="day" placeholder="ex:12" required min="1"
                         max="31">
+
+                        <label>Enter your Year</label>
+
+                    <input type="number" class="form-control" id="year" placeholder="ex:2003" required
+                        min="1879" max="2020" >
                 </div>
-                <div class="ggg">
-                    <label>Gender</label><br>
-                    <input type="radio" name="gender" id="male" value="male" checked> Male
-                    <input type="radio" name="gender" id="female" value="female"> Female
-                </div>
+                
+                    <label>Choose your Gender</label><br><br>
+                    <input type="radio" name="gender" id="female" value="F" checked> Female
+                    <input type="radio" name="gender" id="male" value="M"> Male
+               
             </div>
-            <a onclick="submission()" class="btn btn-outline-info btn-lg">Submit</a>
+            <br><br>
+            <a onclick="send()" class="btn btn-outline-info btn-lg">Submit</a>
             
             <button type="reset" class="btn btn-outline-info btn-lg">Reset</button>
+
+            <br><br> <p id="output"> </p>
             
-        </form> 
+        </form> </center>
+        <br><br>
         <div class="card-footer">
        
             <p>Copyright &copy; BEATRICE WEBDEVELOPER.2020<br>TEl:0728913766 <br> Email: bshabani120@daviscollege.com </p>

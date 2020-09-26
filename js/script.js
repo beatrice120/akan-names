@@ -1,5 +1,5 @@
 
-/*var submission = function() {
+var send= function() {
   var daysOfTheWeek = [
     "Sunday",
     "Monday",
@@ -8,7 +8,7 @@
     "Thursday",
     "Friday",
     "Saturday"
-  ]; */
+  ];
   var maleNames = [
     "Kwasi",
     "Kwadwo",
@@ -27,7 +27,6 @@
     "Afua",
     "Ama"
   ];
-  /*
   var month = parseInt(document.getElementById("month").value);
   var year = parseInt(document.getElementById("year").value);
   var day = parseInt(document.getElementById("day").value);
@@ -41,7 +40,7 @@
   if (month =="" && year =="" && day =="" && name=="") {
     alert("Please Enter you credentials");
     return false;
-  } */
+  }
 
 //   if (month == null || month== "", day == null || day == "", year== null || year == "", name == null || name == "") {
 //     alert("Please Fill All Required Field");
@@ -51,8 +50,7 @@
   
   
  if (year < 0) {
-    output.style.background ="red"
-    output.style.color= "white"
+   
     output.innerHTML = "Hey! " + name + " please enter a valid year! "
 }
   
@@ -67,20 +65,15 @@ else if ((month < 1) || (month > 31)) {
     output.style.color= "white"
     output.innerHTML = "Hey! " + name + " please enter a valid day! "
 }
-//  var valid = (year>0 && (month > 0 && month <= 12) (day > 0 && day <32))
- 
-//  if(valid == false){
-//    alert("No Input received!!");
-//  }
 
   if(male.checked && year > 0 && month > 0 && month < 12 && day > 0 && day < 32) {
-    output.style.background ="lime"
-      output.innerHTML = "Hey! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + maleNames[results];
+    output.style.background ="white"
+      output.innerHTML = "wow dear sir " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + maleNames[results];
   }
    else if(female.checked && year > 0 && month > 0 && month < 12 && day > 0 && day < 32) {
-    output.style.background ="lime"
-    output.style.background ="red"
-    output.innerHTML = "Hey! " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + femaleNames[results];
+    output.style.background ="white"
+    output.style.background ="white"
+    output.innerHTML = "wow dear madam " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + femaleNames[results];
 }
 
 };

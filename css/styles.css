@@ -30,23 +30,17 @@ h2{
     font-family: 'Courier New', Courier, monospace;
     font-size:30px;
 }
-.ggg {
-    color:aqua;
-    font-family: 'Courier New', Courier, monospace;
-    font-size:1.8em;
-} 
+
 
 label {
-    font-size:1.5em;
-    color:aqua;
-}
-footer {
+    font-size:15px;
     color:white;
-    font-size:1em;
 }
+
 form {
-    width:60%;
-    /*border:2px solid white;*/
+    width:40%;
+    background-color: black;
+  
     text-align:center;
 }
 a {
@@ -56,12 +50,29 @@ a {
     color:white;
 }
 #output {
-    font-size:1.8em;
-    border:2px solid white;
-    text-shadow: 2px 2px 4px #000000;
+    font-size:20;
+   color: black;
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   font-style:oblique;
 }
 
 .card-footer{
  color: #000000;
  background-color: white;
 }
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    border-radius: 4px;
+  }
+  input[type=number] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid blue;
+    border-radius: 4px;
+  }
