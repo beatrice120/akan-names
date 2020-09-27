@@ -31,15 +31,14 @@ h2{
     font-size:30px;
 }
 
-
-label {
+label  {
     font-size:15px;
-    color:white;
+    color: white;
 }
 
 form {
     width:30%;
-    
+
     background-color: black;
   
     text-align:center;
