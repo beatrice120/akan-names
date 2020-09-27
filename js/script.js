@@ -22,21 +22,21 @@ var send= function() {
     return false; 
 }
   
-else if ((month < 1) || (month >12)) {
+else if   ((month < 1) || (month >12)) {
     
     alert(output.innerHTML = "dear! " + name + " Enter a valid month please! ")
 }
   
- else if (day <0 || day >31) {
+else if  (day <0 || day >31) {
     
    alert( output.innerHTML = "dear " + name + " Enter your valid day please! ")
 }
-else if (year <= 1879 || year >2020) {
+else if  (year <= 1879 || year >2020) {
     
   alert(output.innerHTML = "dear " + name + " Enter your valid year please! ")
 }
 
-  if(female.checked && year > 1879 && year<=2020 && month > 0 && month < 12 && day > 0 && day <= 31) {
+  if  (female.checked && year > 1879 && year<=2020 && month > 0 && month < 12 && day > 0 && day <= 31) {
    
   alert(output.innerHTML = "Wow dear madam" + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + femaleNames[results]);
   }
