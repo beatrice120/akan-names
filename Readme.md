@@ -25,6 +25,9 @@
  * javascript
  * bootsrap 
  
+ ## Link to the application
+ 
+ https://beatrice120.github.io/akan-names/
 
 ## Licence
 
