@@ -22,14 +22,14 @@ var send= function() {
     return false; 
 }
   
-else if ((month < 1) || (month >= 31)) {
+else if ((month < 1) || (month >12)) {
     
-    output.innerHTML = "dear! " + name + " enter a valid month ! "
+    alert(output.innerHTML = "dear! " + name + " enter a valid month ! ")
 }
   
  else if (day <= 0 || day >=31) {
     
-    output.innerHTML = "dear " + name + " enter your valid day! "
+   alert( output.innerHTML = "dear " + name + " enter your valid day! ")
 }
 else if (year <= 1879 || day >=2020) {
     
