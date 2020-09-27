@@ -15,7 +15,7 @@ var send= function() {
  
  if (year < 0) {
    
-  output.innerHTML = "dear " + name + "  Enter a valid year please! "
+  output.innerHTML = "dear " + name + " Enter a valid year please! "
   }
   if (name=="" && day =="" && year =="" && month=="") {
     alert("enter your informations to know your akan name");
@@ -38,7 +38,7 @@ else if (year <= 1879 || year >2020) {
 
   if(female.checked && year > 1879 && year<=2020 && month > 0 && month < 12 && day > 0 && day <= 31) {
    
-  alert(output.innerHTML = "wow dear madam " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + femaleNames[results]);
+  alert(output.innerHTML = "Wow dear madam" + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + femaleNames[results]);
   }
    else if(male.checked && year > 1879 && year<=2020 && month > 0 && month < 12 && day > 0 && day <=31) {
    
