@@ -13,14 +13,13 @@ var send= function() {
  var maleNames = ["Kwasi","Kwadwo", "Kwabena","Kwaku", "Yaw", "Kofi", "Kwame"];
  var femaleNames = [ "Akosua"," Adwoa", "Abenaa",  "Akua",  "Yaa",  "Afua", "Ama" ];
  
-if (month =="" && year =="" && day =="" && name=="") {
-    prompt("enter your informations");
-    return false;
-  }
-
-  if (year < 0) {
+ if (year < 0) {
    
-    output.innerHTML = "dear " + name + "  enter a valid year! "
+  output.innerHTML = "dear " + name + "  enter a valid year! "
+  }
+  if (month =="" && year =="" && day =="" && name=="") {
+    alert("enter your informations");
+    return false; 
 }
   
 else if ((month < 1) || (month >= 31)) {
@@ -32,15 +31,17 @@ else if ((month < 1) || (month >= 31)) {
     
     output.innerHTML = "dear " + name + " enter your valid day! "
 }
-
-  if(male.checked && year > 0 && month > 0 && month < 12 && day > 0 && day < 32) {
-    output.style.background ="white"
-      output.innerHTML = "wow dear sir " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + maleNames[results];
-  }
-   else if(female.checked && year > 0 && month > 0 && month < 12 && day > 0 && day < 32) {
-    output.style.background ="white"
-    output.style.background ="white"
-    output.innerHTML = "wow dear madam " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + femaleNames[results];
+else if (year <= 1879 || day >=2020) {
+    
+  output.innerHTML = "dear " + name + " enter your valid year! "
 }
 
+  if(female.checked && year > 1879 && year<=2020 && month > 0 && month < 12 && day > 0 && day <= 31) {
+   
+  alert(output.innerHTML = "wow dear madam " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + femaleNames[results]);
+  }
+   else if(male.checked && year > 1879 && year<=2020 && month > 0 && month < 12 && day > 0 && day <=31) {
+   
+ alert( output.innerHTML = "wow dear sir " + name + " you were born on a " + daysOfTheWeek[results] + " and your Akan name is " + maleNames[results])
+};
 };
