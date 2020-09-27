@@ -31,7 +31,7 @@ else if ((month < 1) || (month >12)) {
     
    alert( output.innerHTML = "dear " + name + " enter your valid day please! ")
 }
-else if (year <= 1879 || year >=2020) {
+else if (year <= 1879 || year >2020) {
     
   alert(output.innerHTML = "dear " + name + " enter your valid year please! ")
 }
